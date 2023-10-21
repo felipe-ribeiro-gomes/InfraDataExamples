@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraDataExamples.Domain", "InfraDataExamples.Domain\InfraDataExamples.Domain.csproj", "{7E89CFD4-855F-4DF1-8EEB-82AF2CE5C22D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Domain", "1. Domain", "{BBFAC3B5-CC64-414B-AA7E-1957129D1C1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Infra", "2. Infra", "{24392D58-6D35-4B34-A5F9-63DADA800EB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1. Data", "2.1. Data", "{3A4592CF-A5C8-4ED4-97A6-DAD43257A165}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Tests", "3. Tests", "{98617B4F-9654-4EED-B3EB-D7B020C631F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraDataExamples.Domain.Core", "InfraDataExamples.Domain.Core\InfraDataExamples.Domain.Core.csproj", "{59F68247-5F25-43CF-934C-EF86A5AFB4DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraDataExamples.Tests", "InfraDataExamples.Tests\InfraDataExamples.Tests.csproj", "{CC6D3CF7-6905-4A80-9311-3BF4FA2F9BAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{12965727-637B-4B1E-8B5E-288378A8EF6A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.pdb = .nuget\NuGet.pdb
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraDataExamples.Infra.Data.NH", "InfraDataExamples.Infra.Data.NH\InfraDataExamples.Infra.Data.NH.csproj", "{C675C4B0-6320-4E69-B6CF-CCBEA2E7E5F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraDataExamples.Infra.Data.EF", "InfraDataExamples.Infra.Data.EF\InfraDataExamples.Infra.Data.EF.csproj", "{2627746F-D70D-4393-9232-CB3DAE7A50D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E89CFD4-855F-4DF1-8EEB-82AF2CE5C22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E89CFD4-855F-4DF1-8EEB-82AF2CE5C22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E89CFD4-855F-4DF1-8EEB-82AF2CE5C22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E89CFD4-855F-4DF1-8EEB-82AF2CE5C22D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F68247-5F25-43CF-934C-EF86A5AFB4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F68247-5F25-43CF-934C-EF86A5AFB4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F68247-5F25-43CF-934C-EF86A5AFB4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F68247-5F25-43CF-934C-EF86A5AFB4DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6D3CF7-6905-4A80-9311-3BF4FA2F9BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6D3CF7-6905-4A80-9311-3BF4FA2F9BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6D3CF7-6905-4A80-9311-3BF4FA2F9BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6D3CF7-6905-4A80-9311-3BF4FA2F9BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C675C4B0-6320-4E69-B6CF-CCBEA2E7E5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C675C4B0-6320-4E69-B6CF-CCBEA2E7E5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C675C4B0-6320-4E69-B6CF-CCBEA2E7E5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C675C4B0-6320-4E69-B6CF-CCBEA2E7E5F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2627746F-D70D-4393-9232-CB3DAE7A50D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2627746F-D70D-4393-9232-CB3DAE7A50D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2627746F-D70D-4393-9232-CB3DAE7A50D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2627746F-D70D-4393-9232-CB3DAE7A50D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E89CFD4-855F-4DF1-8EEB-82AF2CE5C22D} = {BBFAC3B5-CC64-414B-AA7E-1957129D1C1A}
+		{59F68247-5F25-43CF-934C-EF86A5AFB4DC} = {BBFAC3B5-CC64-414B-AA7E-1957129D1C1A}
+		{3A4592CF-A5C8-4ED4-97A6-DAD43257A165} = {24392D58-6D35-4B34-A5F9-63DADA800EB5}
+		{C675C4B0-6320-4E69-B6CF-CCBEA2E7E5F9} = {3A4592CF-A5C8-4ED4-97A6-DAD43257A165}
+		{2627746F-D70D-4393-9232-CB3DAE7A50D2} = {3A4592CF-A5C8-4ED4-97A6-DAD43257A165}
+		{CC6D3CF7-6905-4A80-9311-3BF4FA2F9BAA} = {98617B4F-9654-4EED-B3EB-D7B020C631F9}
+	EndGlobalSection
+EndGlobal
